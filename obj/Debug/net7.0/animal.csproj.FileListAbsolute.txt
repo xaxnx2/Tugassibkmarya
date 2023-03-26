@@ -1,0 +1,15 @@
+F:\tugas kalbis\Magang\MAGANG\C# MAGANG\ZooDB\ZooDB\bin\Debug\net7.0\animal.exe
+F:\tugas kalbis\Magang\MAGANG\C# MAGANG\ZooDB\ZooDB\bin\Debug\net7.0\animal.deps.json
+F:\tugas kalbis\Magang\MAGANG\C# MAGANG\ZooDB\ZooDB\bin\Debug\net7.0\animal.runtimeconfig.json
+F:\tugas kalbis\Magang\MAGANG\C# MAGANG\ZooDB\ZooDB\bin\Debug\net7.0\animal.dll
+F:\tugas kalbis\Magang\MAGANG\C# MAGANG\ZooDB\ZooDB\bin\Debug\net7.0\animal.pdb
+F:\tugas kalbis\Magang\MAGANG\C# MAGANG\ZooDB\ZooDB\obj\Debug\net7.0\animal.csproj.AssemblyReference.cache
+F:\tugas kalbis\Magang\MAGANG\C# MAGANG\ZooDB\ZooDB\obj\Debug\net7.0\animal.GeneratedMSBuildEditorConfig.editorconfig
+F:\tugas kalbis\Magang\MAGANG\C# MAGANG\ZooDB\ZooDB\obj\Debug\net7.0\animal.AssemblyInfoInputs.cache
+F:\tugas kalbis\Magang\MAGANG\C# MAGANG\ZooDB\ZooDB\obj\Debug\net7.0\animal.AssemblyInfo.cs
+F:\tugas kalbis\Magang\MAGANG\C# MAGANG\ZooDB\ZooDB\obj\Debug\net7.0\animal.csproj.CoreCompileInputs.cache
+F:\tugas kalbis\Magang\MAGANG\C# MAGANG\ZooDB\ZooDB\obj\Debug\net7.0\animal.dll
+F:\tugas kalbis\Magang\MAGANG\C# MAGANG\ZooDB\ZooDB\obj\Debug\net7.0\refint\animal.dll
+F:\tugas kalbis\Magang\MAGANG\C# MAGANG\ZooDB\ZooDB\obj\Debug\net7.0\animal.pdb
+F:\tugas kalbis\Magang\MAGANG\C# MAGANG\ZooDB\ZooDB\obj\Debug\net7.0\animal.genruntimeconfig.cache
+F:\tugas kalbis\Magang\MAGANG\C# MAGANG\ZooDB\ZooDB\obj\Debug\net7.0\ref\animal.dll
