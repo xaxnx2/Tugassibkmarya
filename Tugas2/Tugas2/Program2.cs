@@ -2,7 +2,7 @@
 
 namespace Connection;
 
-public class Program
+public class Program2
 {
     private static SqlConnection connection;
 
@@ -10,7 +10,7 @@ public class Program
 
     public static void Main()
     {
-        //GetAllcountry();
+        GetAllcountry();
         //GetByIdRegion(1002);
         //Insertcountry("te","test",2);
         //Updatecountry("te", "test_country", 4);
@@ -49,17 +49,15 @@ public class Program
     }
 
     // GET BY ID : Region
-    /*public static void GetByIdRegion(int id)
+    public static void GetByIdRegion(int id)
     {
-        // Membuat instance SQL Server Connection
-        connection = new SqlConnection(connectionString);
 
-        // Membuat instance SQL Command
+        connection = new SqlConnection(conn);
+
         SqlCommand command = new SqlCommand();
         command.Connection = connection;
-        command.CommandText = "Select * From region Where id = @id;";
+        command.CommandText = "Select * From country Where id = @id;";
 
-        // Membuat instance SQL Parameter
         SqlParameter pId = new SqlParameter();
         pId.ParameterName = "@id";
         pId.SqlDbType = System.Data.SqlDbType.Int;
@@ -74,6 +72,8 @@ public class Program
 
             Console.WriteLine("Id : " + reader[0]);
             Console.WriteLine("Name : " + reader[1]);
+            Console.WriteLine("Region : " + reader[2]);
+            
         }
         else
         {
@@ -82,7 +82,7 @@ public class Program
         reader.Close();
         connection.Close();
     }
-    */
+    
 
     // INSERT : country
     public static void Insertcountry(string id, string name, int region)
