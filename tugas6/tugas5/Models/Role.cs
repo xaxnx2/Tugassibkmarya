@@ -1,5 +1,6 @@
 ﻿using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
+using System.Text.Json.Serialization;
 
 namespace Tugas4.Models
 {
@@ -12,6 +13,7 @@ namespace Tugas4.Models
         public string name { get; set; }
 
         //cardinality
-        public ICollection<Accountrole> Accountrole { get; set; }
+        [JsonIgnore]
+        public ICollection<Accountrole>? Accountrole { get; set; }
     }
 }

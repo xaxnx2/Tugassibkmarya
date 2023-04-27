@@ -1,6 +1,7 @@
 ﻿using Microsoft.EntityFrameworkCore.Metadata.Internal;
 using System.ComponentModel.DataAnnotations.Schema;
 using System.ComponentModel.DataAnnotations;
+using System.Text.Json.Serialization;
 
 namespace Tugas4.Models
 {
@@ -14,7 +15,8 @@ namespace Tugas4.Models
         public int EducationId { get; set; }
 
         //cardinality
-        public Education Education { get; set; }
-        public Employee Employee { get; set; }
+        [JsonIgnore]
+        public Education? Education { get; set; }
+        public Employee? Employee { get; set; }
     }
 }

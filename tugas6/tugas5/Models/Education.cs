@@ -1,5 +1,6 @@
 ﻿using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
+using System.Text.Json.Serialization;
 
 namespace Tugas4.Models
 {
@@ -18,7 +19,9 @@ namespace Tugas4.Models
         public int? universityid { get; set; }
 
         //cardinality
-        public University University { get; set; }
-        public Profiling Profiling { get; set; }
+        [JsonIgnore]
+        public University? University { get; set; }
+        [JsonIgnore]
+        public Profiling? Profiling { get; set; }
     }
 }

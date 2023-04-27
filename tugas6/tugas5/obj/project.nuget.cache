@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "mTtwbkVW1veJ2mcyx73ulkny7gnc0i2WP5HZJ66hTvc7EJIQMFsX9O1p4TvsmHzjyUIcsUsZAkcV0zqM+y6sXA==",
+  "dgSpecHash": "dFoYWcr8UZc3Wz7DDQcyzEL3w4EKD4Pm0LbUZwt+/TRnmXOODlLBht7MLuWhE7KRVeYZt23NTUzJvi4XB0kglA==",
   "success": true,
-  "projectFilePath": "F:\\tugas kalbis\\Magang\\MAGANG\\C# MAGANG\\TugasDBdanC\\tugas5api\\tugas5\\tugas5.csproj",
+  "projectFilePath": "F:\\tugas kalbis\\Magang\\MAGANG\\C# MAGANG\\TugasDBdanC\\tugas5api\\tugas5\\tugas6.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\arya\\.nuget\\packages\\azure.core\\1.24.0\\azure.core.1.24.0.nupkg.sha512",
     "C:\\Users\\arya\\.nuget\\packages\\azure.identity\\1.6.0\\azure.identity.1.6.0.nupkg.sha512",
