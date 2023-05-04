@@ -77,5 +77,27 @@ namespace tugas6.Repositories.Data
             return result;
 
         }
+        public bool Login(LoginVM loginVM)
+        {
+            // ambil data dari database berdasarkan email di tabel employee
+            // gabungkan dari data tabel employee dengan tabel account berdasarkan NIK
+            // cocokan data tersebut dengan password yang diinputkan
+            // cek apakah data falid atau tidak
+            var employeeemail = _context.Employees.FirstOrDefault(e => e.Email == loginVM.Email);
+            var accountpass = _context.Account.FirstOrDefault(a => a.password == loginVM.Password);
+  
+
+            if (employeeemail != null) 
+            { 
+                if (accountpass != null)
+                {
+                    return true;
+                }
+            
+            }
+            return false;
+
+        }
+
     }
 }

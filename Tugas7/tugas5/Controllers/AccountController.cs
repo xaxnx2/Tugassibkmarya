@@ -36,5 +36,25 @@ namespace tugas6.Controllers
                 Errors = "Insert Failed / Lost Connection"
             });
         }
+        [HttpPost("Login")]
+        public ActionResult Login(LoginVM loginVM)
+        {
+            var login = _repository.Login(loginVM);
+            if (login)
+            {
+                return Ok(new ResponseDataVM<string>
+                {
+                    Code = StatusCodes.Status200OK,
+                    Status = HttpStatusCode.OK.ToString(),
+                    Message = "Login Success",
+                });
+            }
+            return NotFound(new ResponseErrorsVM<string>
+            {
+                Code = StatusCodes.Status404NotFound,
+                Status = HttpStatusCode.NotFound.ToString(),
+                Errors = "Login Failed / account or password not found"
+            });
+        }
     }
 }
