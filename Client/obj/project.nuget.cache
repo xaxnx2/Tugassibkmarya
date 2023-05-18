@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "giiSLKa0/er4tiWi7gUvgFlZlQYHer3FwZg7Dty/8zaJqVnJvqeK5E6++gjJpTWTxKjNH3cfrTDi70TDywUzkg==",
+  "success": true,
+  "projectFilePath": "F:\\tugas kalbis\\Magang\\MAGANG\\C# MAGANG\\Tugassibkmarya\\Deprecated\\Tugas9\\Client\\Client.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\arya\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.17.2\\microsoft.visualstudio.azure.containers.tools.targets.1.17.2.nupkg.sha512"
+  ],
+  "logs": []
+}
