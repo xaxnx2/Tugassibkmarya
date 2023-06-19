@@ -1,7 +1,7 @@
 ﻿using Microsoft.EntityFrameworkCore;
-using Tugas6.Models;
+using API.Models;
 
-namespace Tugas6.Context
+namespace API.Context
 {
 
     public class MyContext : DbContext

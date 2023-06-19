@@ -1,4 +1,4 @@
-﻿namespace tugas6.Handler
+﻿namespace API.Handler
 {
     public class Hashing
     {

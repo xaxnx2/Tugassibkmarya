@@ -1,9 +1,9 @@
-﻿using Tugas6.Context;
-using Tugas6.Models;
+﻿using API.Context;
+using API.Models;
 using Microsoft.EntityFrameworkCore.Metadata.Internal;
 
 
-namespace tugas6.Repositories
+namespace API.Repositories
 {
     public class GenericRepo<TEntity, TKey, TContext> : IGenericRepo<TEntity, TKey>
         where TEntity : class

@@ -8419,11 +8419,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "F:\\tugas kalbis\\Magang\\MAGANG\\C# MAGANG\\TugasDBdanC\\tugas5api\\tugas5\\tugas6.csproj",
-      "projectName": "tugas6",
-      "projectPath": "F:\\tugas kalbis\\Magang\\MAGANG\\C# MAGANG\\TugasDBdanC\\tugas5api\\tugas5\\tugas6.csproj",
+      "projectUniqueName": "F:\\tugas kalbis\\Magang\\MAGANG\\C# MAGANG\\Tugassibkmarya\\Tugas9\\tugas5\\API.csproj",
+      "projectName": "API",
+      "projectPath": "F:\\tugas kalbis\\Magang\\MAGANG\\C# MAGANG\\Tugassibkmarya\\Tugas9\\tugas5\\API.csproj",
       "packagesPath": "C:\\Users\\arya\\.nuget\\packages\\",
-      "outputPath": "F:\\tugas kalbis\\Magang\\MAGANG\\C# MAGANG\\TugasDBdanC\\tugas5api\\tugas5\\obj\\",
+      "outputPath": "F:\\tugas kalbis\\Magang\\MAGANG\\C# MAGANG\\Tugassibkmarya\\Tugas9\\tugas5\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\arya\\AppData\\Roaming\\NuGet\\NuGet.Config",

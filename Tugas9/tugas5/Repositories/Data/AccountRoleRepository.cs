@@ -1,8 +1,8 @@
-﻿using Tugas6.Context;
-using Tugas6.Models;
-using tugas6.Repositories.Interface;
+﻿using API.Context;
+using API.Models;
+using API.Repositories.Interface;
 
-namespace tugas6.Repositories.Data
+namespace API.Repositories.Data
 {
     public class AccountRoleRepository : GenericRepo<Accountrole,int,MyContext>,IAccountRoleRepository
     {

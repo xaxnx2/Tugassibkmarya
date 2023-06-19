@@ -1,17 +1,17 @@
 ﻿using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using System.Net;
-using Tugas6.Models;
-using tugas6.Repositories.Data;
-using tugas6.Repositories.Interface;
-using tugas6.ViewModels;
-using tugas6.Basecontroller;
-using tugas6.Repositories;
+using API.Models;
+using API.Repositories.Data;
+using API.Repositories.Interface;
+using API.ViewModels;
+using API.Basecontroller;
+using API.Repositories;
 using Microsoft.AspNetCore.Authorization;
 using System.Security.Claims;
 using API.Handlers;
 
-namespace tugas6.Controllers
+namespace API.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]

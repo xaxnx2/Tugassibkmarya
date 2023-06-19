@@ -1,4 +1,4 @@
-﻿namespace tugas6.ViewModels
+﻿namespace API.ViewModels
 {
     public class LoginVM
     {

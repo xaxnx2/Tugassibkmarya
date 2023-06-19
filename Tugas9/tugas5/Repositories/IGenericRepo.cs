@@ -1,6 +1,6 @@
-﻿using Tugas6.Models;
+﻿using API.Models;
 
-namespace tugas6.Repositories
+namespace API.Repositories
 {
     public interface IGenericRepo<TEntity, TKey>
     {

@@ -1,13 +1,14 @@
-﻿using Tugas6.Context;
-using Tugas6.Models;
-using tugas6.Repositories.Interface;
+﻿using API.Context;
+using API.Models;
+using API.Repositories.Interface;
+using Microsoft.EntityFrameworkCore;
 
-namespace tugas6.Repositories.Data
+namespace API.Repositories.Data;
+public class UniversityRepository : GenericRepo<University, int, MyContext>, IUniversityRepository
 {
-    public class UniversityRepository : GenericRepo<University, int, MyContext>, IUniversityRepository
+    public UniversityRepository(MyContext context) : base(context) { }
+    public IEnumerable<University> GetByName(string name)
     {
-        public UniversityRepository(MyContext context) : base(context) { }
-
-
-    }    
+        return _context.Universities.Where(x => x.name.Contains(name));
+    }
 }

@@ -1,8 +1,8 @@
-﻿using tugas6.Repositories;
-using tugas6.ViewModels;
-using Tugas6.Models;
+﻿using API.Repositories;
+using API.ViewModels;
+using API.Models;
 
-namespace tugas6.Repositories.Interface
+namespace API.Repositories.Interface
 {
     public interface IAccountRepository:IGenericRepo<Account,string>
     {

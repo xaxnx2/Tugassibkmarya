@@ -3,7 +3,7 @@ using System.ComponentModel.DataAnnotations.Schema;
 using System.ComponentModel.DataAnnotations;
 using System.Text.Json.Serialization;
 
-namespace Tugas6.Models
+namespace API.Models
 {
 
     [Table("tb_tr_profilings")]

@@ -2,9 +2,9 @@
 using System.ComponentModel.DataAnnotations.Schema;
 using System.ComponentModel.DataAnnotations;
 using System.Text.Json.Serialization;
-using Tugas6.Models;
+using API.Models;
 
-namespace tugas6.ViewModels
+namespace API.ViewModels
 {
     public class RegisterVM
     {

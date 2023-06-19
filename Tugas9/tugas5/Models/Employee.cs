@@ -4,7 +4,7 @@ using System.ComponentModel.DataAnnotations;
 using System.Reflection;
 using System.Text.Json.Serialization;
 
-namespace Tugas6.Models
+namespace API.Models
 {
     [Table("tb_m_employees")]
     public class Employee

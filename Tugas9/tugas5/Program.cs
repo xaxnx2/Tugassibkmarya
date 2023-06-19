@@ -1,8 +1,8 @@
 using Microsoft.EntityFrameworkCore;
-using Tugas6.Context;
-using tugas6.Repositories.Data;
-using tugas6.Repositories.Interface;
-using tugas6.Repositories;
+using API.Context;
+using API.Repositories.Data;
+using API.Repositories.Interface;
+using API.Repositories;
 using API.Handlers;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.IdentityModel.Tokens;

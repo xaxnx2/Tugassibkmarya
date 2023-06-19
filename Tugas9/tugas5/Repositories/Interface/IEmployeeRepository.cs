@@ -1,7 +1,7 @@
-﻿using tugas6.ViewModels;
-using Tugas6.Models;
+﻿using API.ViewModels;
+using API.Models;
 
-namespace tugas6.Repositories.Interface
+namespace API.Repositories.Interface
 {
     public interface IEmployeeRepository:IGenericRepo<Employee,string>
     {

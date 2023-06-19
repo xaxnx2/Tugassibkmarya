@@ -2,7 +2,7 @@
 using System.ComponentModel.DataAnnotations.Schema;
 using System.Text.Json.Serialization;
 
-namespace Tugas6.Models
+namespace API.Models
 {
     [Table("TB_M_Educations")]
     public class Education

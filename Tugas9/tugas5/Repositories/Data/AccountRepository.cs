@@ -1,10 +1,10 @@
-﻿using Tugas6.Context;
-using Tugas6.Models;
-using tugas6.Repositories.Interface;
-using tugas6.ViewModels;
-using tugas6.Handler;
+﻿using API.Context;
+using API.Models;
+using API.Repositories.Interface;
+using API.ViewModels;
+using API.Handler;
 
-namespace tugas6.Repositories.Data
+namespace API.Repositories.Data
 {
     public class AccountRepository : GenericRepo<Account,string,MyContext>,IAccountRepository
     {

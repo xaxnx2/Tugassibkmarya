@@ -1,6 +1,6 @@
-﻿using Tugas6.Models;
+﻿using API.Models;
 
-namespace tugas6.Repositories.Interface
+namespace API.Repositories.Interface
 {
     public interface IRoleRepository:IGenericRepo<Role,int>
     {
