@@ -1,25 +1,48 @@
 ﻿using API.Models;
+using API.ViewModels;
 using Client.Repositories;
-using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
-using System.Text;
 
 namespace Client.Controllers;
-/*[Authorize]*/
-public class UniversityController : Controller
+public class AccountController : Controller
 {
-    private readonly UniversityRepository repository;
+    private readonly AccountRepository repository;
 
-    public UniversityController(UniversityRepository repository)
+    public AccountController(AccountRepository repository)
     {
         this.repository = repository;
     }
+
     [HttpGet]
+    public IActionResult Login()
+    {
+        return View();
+    }
+
+    [HttpPost]
+    public async Task<IActionResult> Login(LoginVM login)
+    {
+        var result = await repository.Login(login);
+        if (result.Code == 200)
+        {
+            HttpContext.Session.SetString("JWToken", result.Data);
+            return RedirectToAction("index", "home");
+        }
+        return View();
+    }
+
+    [HttpGet("/Logout")]
+    public IActionResult Logout()
+    {
+        HttpContext.Session.Clear();
+        return Redirect("/Account/Login");
+    }
+
     public async Task<IActionResult> Index()
     {
         //localhost/university/
         var Results = await repository.Get();
-        var universities = new List<University>();
+        var universities = new List<Account>();
 
         if (Results != null)
         {
@@ -36,11 +59,11 @@ public class UniversityController : Controller
     }
 
     [HttpPost]
-  /*  [ValidateAntiForgeryToken]*/
-    public async Task<IActionResult> Create(University university)
+    [ValidateAntiForgeryToken]
+    public async Task<IActionResult> Create(Account account)
     {
 
-        var result = await repository.Post(university);
+        var result = await repository.Post(account);
         if (result.Code == 200)
         {
             TempData["Success"] = "Data berhasil masuk";

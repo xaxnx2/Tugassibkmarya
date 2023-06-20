@@ -11,7 +11,7 @@ builder.Services.AddControllersWithViews();
 builder.Services.AddSession();
 builder.Services.AddHttpContextAccessor();
 builder.Services.AddScoped<UniversityRepository>(); //kalau belum dipasang pasti akan (unable to resolve service)
-
+builder.Services.AddScoped<AccountRepository>();
 
 // Configure JWT Authentication -> ini diambil dari JWT configuration Program.CS API sendiri
 builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
@@ -70,6 +70,7 @@ app.Use(async (context, next) =>
 
     await next();
 });
+
 app.UseAuthentication();
 app.UseAuthorization();
 
